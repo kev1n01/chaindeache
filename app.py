@@ -87,7 +87,7 @@ async def start():
 
         file = files[0]
 
-        msg = cl.Message(content=f"Processing `{file.name}`...", disable_feedback=True, author="You", 
+        msg = cl.Message(content=f"Processing `{file.name}`...", disable_feedback=False, author="You", 
         type="user_message",)
         await msg.send()
 
