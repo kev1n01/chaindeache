@@ -1,1 +1,9 @@
-chainlit==1.1.305
+chainlit
+pypdf
+langchain
+langchain-community
+openai
+python-dotenv
+pinecone-client
+tiktoken==0.3.3
+langchain-openai
